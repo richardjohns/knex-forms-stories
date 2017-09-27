@@ -1,0 +1,30 @@
+exports.seed = function (knex, Promise) {
+  return Promise.all([
+    knex('profiles').insert({id: 1, user_id: 99901, image: 'https://source.unsplash.com/random', bio: 'aardvark@example.org'}),
+    knex('profiles').insert({id: 2, user_id: 99902, image: 'https://source.unsplash.com/random', bio: 'baboon@example.org'}),
+    knex('profiles').insert({id: 3, user_id: 99903, image: 'https://source.unsplash.com/random', bio: 'capybara@example.org'}),
+    knex('profiles').insert({id: 4, user_id: 99904, image: 'https://source.unsplash.com/random', bio: 'duck@example.org'}),
+    knex('profiles').insert({id: 5, user_id: 99905, image: 'https://source.unsplash.com/random', bio: 'elephant@example.org'}),
+    knex('profiles').insert({id: 6, user_id: 99906, image: 'https://source.unsplash.com/random', bio: 'flying.fox@example.org'}),
+    knex('profiles').insert({id: 7, user_id: 99907, image: 'https://source.unsplash.com/random', bio: 'gila.monster@example.org'}),
+    knex('profiles').insert({id: 8, user_id: 99908, image: 'https://source.unsplash.com/random', bio: 'heron@example.org'}),
+    knex('profiles').insert({id: 9, user_id: 99909, image: 'https://source.unsplash.com/random', bio: 'impala@example.org'}),
+    knex('profiles').insert({id: 10, user_id: 99910, image: 'https://source.unsplash.com/random', bio: 'jerboa@example.org'}),
+    knex('profiles').insert({id: 11, user_id: 99911, image: 'https://source.unsplash.com/random', bio: 'kinkajou@example.org'}),
+    knex('profiles').insert({id: 12, user_id: 99912, image: 'https://source.unsplash.com/random', bio: 'lemur@example.org'}),
+    knex('profiles').insert({id: 13, user_id: 99913, image: 'https://source.unsplash.com/random', bio: 'mongoose@example.org'}),
+    knex('profiles').insert({id: 14, user_id: 99914, image: 'https://source.unsplash.com/random', bio: 'nyala@example.org'}),
+    knex('profiles').insert({id: 15, user_id: 99915, image: 'https://source.unsplash.com/random', bio: 'ocelot@example.org'}),
+    knex('profiles').insert({id: 16, user_id: 99916, image: 'https://source.unsplash.com/random', bio: 'panda@example.org'}),
+    knex('profiles').insert({id: 17, user_id: 99917, image: 'https://source.unsplash.com/random', bio: 'quokka@example.org'}),
+    knex('profiles').insert({id: 18, user_id: 99918, image: 'https://source.unsplash.com/random', bio: 'rail@example.org'}),
+    knex('profiles').insert({id: 19, user_id: 99919, image: 'https://source.unsplash.com/random', bio: 'sloth@example.org'}),
+    knex('profiles').insert({id: 20, user_id: 99920, image: 'https://source.unsplash.com/random', bio: 'terrapin@example.org'}),
+    knex('profiles').insert({id: 21, user_id: 99921, image: 'https://source.unsplash.com/random', bio: 'urial@example.org'}),
+    knex('profiles').insert({id: 22, user_id: 99922, image: 'https://source.unsplash.com/random', bio: 'viscacha@example.org'}),
+    knex('profiles').insert({id: 23, user_id: 99923, image: 'https://source.unsplash.com/random', bio: 'wombat@example.org'}),
+    knex('profiles').insert({id: 24, user_id: 99924, image: 'https://source.unsplash.com/random', bio: 'xerus@example.org'}),
+    knex('profiles').insert({id: 25, user_id: 99925, image: 'https://source.unsplash.com/random', bio: 'yak@example.org'}),
+    knex('profiles').insert({id: 26, user_id: 99926, image: 'https://source.unsplash.com/random', bio: 'zebu@example.org'})
+  ])
+}
