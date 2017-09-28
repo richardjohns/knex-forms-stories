@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Boilerplate: Knex.js
 
 Phase 1 boilerplate project with:
@@ -22,3 +23,6 @@ npm run dev
 ```
 
 Be sure to check out the other npm scripts too.
+=======
+# knex-forms-stories
+>>>>>>> d2353b566839adfa18ceb5a307fe68081eb45f4a
